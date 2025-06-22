@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: prince junior-pair-site
-    env: docker
-    plan: free
-    branch: main
-    repo: https://github.com/Junior-Ezed/JUNIOR-SESSIONS
-    dockerfilePath: ./Dockerfile
-    autoDeploy: true
